@@ -1,3 +1,4 @@
 AddDefaultCharset utf-8
 RewriteEngine on
+
 DirectoryIndex news.php

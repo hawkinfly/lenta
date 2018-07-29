@@ -29,7 +29,7 @@
             <p>Страницы:</p>
             <div id="pagination">
                 <? for ($i = 1; $i <= $pages; $i++): ?>
-                <a <? if ($i == $active_page) echo 'class="active-page"'; ?> href="?page=<?=$i?>"><?=$i?></a>
+                <a <? if ($i == $active_page) echo 'id="active-page"'; ?> href="?page=<?=$i?>"><?=$i?></a>
                 <? endfor; ?>
             </div>
         </footer>
